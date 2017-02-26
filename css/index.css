@@ -1,0 +1,55 @@
+.hover-ball {
+  position: fixed;
+  width: 42px;
+  height: 42px;
+  background: rgba(0,0,0,0.15);
+  border-radius: 100%;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.hover-ball .ball-fg {
+  background: #fff;
+  border-radius: 100%;
+  height: 30px;
+  width: 30px;
+  margin: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.hover-ball .ball-menu {
+  position: absolute;
+}
+.hover-ball .ball-menu .ball-menu-item {
+  background: rgba(0,0,0,0.5);
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  text-align: center;
+  position: absolute;
+}
+.hover-ball .ball-menu .ball-menu-item:nth-of-type(1) {
+  top: -104px;
+  left: -4px;
+}
+.hover-ball .ball-menu .ball-menu-item:nth-of-type(2) {
+  top: -65px;
+  left: -65px;
+}
+.hover-ball .ball-menu .ball-menu-item:nth-of-type(3) {
+  left: -100px;
+  top: -4px;
+}
+.hover-ball .ball-menu .ball-menu-item:nth-of-type(4) {
+  left: -65px;
+  bottom: -115px;
+}
+.hover-ball .ball-menu .ball-menu-item:nth-of-type(5) {
+  left: -4px;
+  bottom: -154px;
+}
